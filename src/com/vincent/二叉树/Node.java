@@ -5,8 +5,9 @@ package com.vincent.二叉树;
  * @desc 二叉树
  * @date 2024/3/28 17:37
  */
-public class Node {
+public class Node<V> {
 
-    private Node left;
-    private Node right;
+    V value;
+    Node left;
+    Node right;
 }
